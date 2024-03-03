@@ -1,8 +1,6 @@
 package com.exam;
 
 import com.exam.helper.UserFoundException;
-
-
 import com.exam.model.Role;
 import com.exam.model.User;
 import com.exam.model.UserRole;
@@ -55,14 +53,14 @@ public class ExamserverApplication implements CommandLineRunner {
 
 
             System.out.println("starting code");
-
+//
             User user = new User();
 
-            user.setFirstName("Sandhya");
-            user.setLastName("Pachange");
-            user.setUsername("Root22");
-            user.setPassword(this.bCryptPasswordEncoder.encode("Pass"));
-            user.setEmail("pachangesandhya11@gmail.com");
+            user.setFirstName("Durgesh");
+            user.setLastName("Tiwari");
+            user.setUsername("durgesh8896");
+            user.setPassword(this.bCryptPasswordEncoder.encode("abc"));
+            user.setEmail("abc@gmail.com");
             user.setProfile("default.png");
 
             Role role1 = new Role();
